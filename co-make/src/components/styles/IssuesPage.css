@@ -1,0 +1,60 @@
+.issues-container {
+    padding-top: 120px;
+    background-color: #f5f3da;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.issuescard-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.issuescard{
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 500px;
+}
+
+.editUsersCard {
+  font-size: 200%;
+}
+
+.editUsersCard:hover {
+  cursor: pointer;
+}
+
+.deleteUsersCard {
+  font-size: 195%;
+}
+
+.deleteUsersCard:hover {
+  cursor: pointer;
+}
+
+.issuesPageForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  height: 310px;
+}

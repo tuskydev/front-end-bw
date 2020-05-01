@@ -1,0 +1,80 @@
+.userInfoTitle {
+    font-size: 300%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.userPageDiv {
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userMapDiv {
+    margin: auto;
+}
+
+.userEditButton {
+    font-size: 150%;
+}
+
+.userEditButton:hover {
+    cursor: pointer;
+}
+
+.userMapDiv input:disabled {
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+    border: 1px solid maroon;
+}
+
+.moveLeftHeaders {
+    margin-right: 7%;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.buttonDiv button {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+#deleteButton {
+    border: 1px solid maroon;
+    background-color: maroon;
+    border-radius: 5px;
+    padding:5px 15px 5px 15px;
+    color: white;
+}
+
+#deleteButton:hover {
+    border: 1px solid rgb(156, 0, 0);
+    background-color: rgb(156, 0, 0);
+    border-radius: 30px;
+    padding:5px 15px 5px 15px;
+    color: white;
+    transition: .2s;
+}
+
+#updateInfo {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    padding:5px 15px 5px 15px;
+    color: black;
+}
+
+#updateInfo:hover {
+    border-radius: 30px;
+    padding:5px 15px 5px 15px;
+    color: black;
+    transition: .2s;
+}

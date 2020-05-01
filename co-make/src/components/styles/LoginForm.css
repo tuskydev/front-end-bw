@@ -1,0 +1,97 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.signup-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 500px;
+}
+
+.login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 310px;
+}
+
+.login-form h1, .signup-form h1 {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid lightgrey;
+    width: 300px;
+}
+
+.login-form form, .signup-form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.login-form label, .signup-form label{
+    height: 55px;
+}
+
+.login-form input, .signup-form input {
+    border-radius: 40px;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    padding-left: 10px;
+    width: 250px;
+    transition: .2s;
+}
+
+.login-form input:hover, .signup-form input:hover {
+    border: 2px solid maroon;
+}
+
+.login-form input:focus, .signup-form input:focus, .login-form button,.signup-form button {
+    outline: none;
+}
+
+.login-form button, .signup-form button {
+    border: 1px solid maroon;
+    background-color: maroon;
+    border-radius: 30px;
+    padding:5px 15px 5px 15px;
+    color: white;
+    transition: .2s;
+}
+
+.login-form button:hover, .signup-form button:hover {
+    border: 1px solid rgb(156, 0, 0);
+    background-color: rgb(156, 0, 0);
+    border-radius: 30px;
+    padding:5px 15px 5px 15px;
+    color: white;
+    transition: .2s;
+}
+
+.error{
+    color: red;
+}
+
